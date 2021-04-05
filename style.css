@@ -1,0 +1,215 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Do Hyeon", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Jua", sans-serif;
+}
+
+/* intro */
+.intro {
+  background-color: #fcf6f5;
+  height: 300px;
+  color: #7b9acc;
+  width: 100%;
+}
+.header {
+  display: flex;
+  margin: auto;
+  width: 1280px;
+  padding: 50px;
+}
+.header > h1 > a {
+  color: #7b9acc;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(1280px - 300px);
+}
+.nav > li {
+  margin-left: 80px;
+  font-size: 20px;
+}
+.nav > li > a {
+  color: #7b9acc;
+}
+.intro_text {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 35px;
+  width: 100%;
+}
+
+/* main1 */
+.main1 {
+  height: 400px;
+  color: #2bae66;
+  width: 100%;
+}
+.main1 > h2 {
+  padding-top: 150px;
+  font-size: 35px;
+  margin-left: 320px;
+}
+.main1 > ul {
+  margin: 60px auto 50px auto;
+  font-size: 25px;
+  width: 250px;
+}
+.main1 > ul > li {
+  margin-bottom: 15px;
+}
+.univ_logo > img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -240px;
+  left: 305px;
+}
+
+/* main2 */
+.main2 {
+  height: 650px;
+  background: #fcf6f5;
+  color: #7b9acc;
+  width: 100%;
+}
+.main2 > h2 {
+  text-align: center;
+  margin-top: 210px;
+  font-size: 35px;
+  position: relative;
+  top: -35px;
+  font-size: 50px;
+}
+.drama {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.drama > li > h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.drama_detail {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* main3 */
+.main3 {
+  height: 600px;
+  color: #7b9acc;
+  width: 100%;
+}
+.main3 > h2 {
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+  top: -35px;
+  font-size: 50px;
+}
+.album_img {
+  margin-top: 100px;
+  padding-left: 200px;
+}
+.album {
+  display: flex;
+}
+.album_detail {
+  margin: 150px 100px auto 100px;
+}
+.album_detail > h3 {
+  font-size: 25px;
+}
+.artist {
+  font-size: 20px;
+}
+.button {
+  border-radius: 4px;
+  background: #7b9acc;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px auto;
+  line-height: 30px;
+  height: 50px;
+  margin: 70px auto auto 80px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #fcf6f5;
+}
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.album > iframe {
+  margin-top: 120px;
+}
+
+/* main4 */
+.main4 {
+  height: 600px;
+  background: #fcf6f5;
+  color: #7b9acc;
+  width: 100%;
+}
+.main4 > h2 {
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+  top: -35px;
+  font-size: 50px;
+}
+.main4 > ul {
+  text-align: center;
+  font-size: 20px;
+}
+.main4 > ul > li {
+  padding-bottom: 10px;
+}
+.main4 > ul > li:last-child {
+  font-size: 45px;
+  font-weight: 1000;
+  padding-top: 10px;
+  color: rgb(197, 53, 53);
+}
+
+/* footer */
+footer {
+  background: #7b9acc;
+  color: #fcf6f5;
+}
+footer > div > a {
+  color: #fcf6f5;
+}
+footer > div {
+  height: 100px;
+  padding-top: 25px;
+  padding-left: 150px;
+}
